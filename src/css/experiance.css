@@ -5,3 +5,55 @@
     margin-bottom: 85px;
   }
 }
+
+.exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  position: relative;
+}
+.work-exp-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  h3 {
+    color: #344054;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 40px */
+    letter-spacing: -0.6px;
+  }
+  h4 {
+    color: #98a2b3;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 24px */
+    letter-spacing: -0.36px;
+    text-align: left;
+  }
+}
+
+.company-data {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.about-data {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  h4 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+.ex-row {
+  position: absolute;
+  top: 230px;
+  right: 50%;
+}

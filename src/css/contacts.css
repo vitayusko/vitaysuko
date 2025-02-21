@@ -1,0 +1,73 @@
+/* contact */
+.contact {
+  padding-top: 98px;
+  padding-bottom: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    color: #344054;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 64px;
+  }
+}
+.input-contact-wrapper {
+  position: relative;
+  width: 832px; /* Ограничиваем ширину всей обертки */
+}
+
+.input-contact-section {
+  border-radius: 50px;
+  border: 1px solid #e4e7ec;
+  backdrop-filter: blur(7.5px);
+  width: 100%; /* Инпут занимает всю ширину обертки */
+  height: 86px;
+  padding: 14px;
+  color: #000;
+  font-family: Numans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  padding-left: 95px; /* Оставляем место для SVG иконки */
+  padding-right: 120px; /* Оставляем место для кнопки справа */
+  box-sizing: border-box;
+}
+
+.icon-sms {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  border-radius: 50px;
+  background: #ffead5;
+  padding: 13px;
+  height: 58px;
+  width: 58px;
+  fill: #fd853a;
+}
+
+.imput-contact-btn {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  display: flex;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 60px;
+  background: #fd853a;
+  border: none;
+  color: var(--white, #fff);
+  font-family: Numans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  cursor: pointer;
+}

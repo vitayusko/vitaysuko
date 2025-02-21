@@ -1,0 +1,96 @@
+/* why hire me */
+#hire-me {
+  border-radius: 50px;
+  background: #f2f4f7;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 122px;
+  padding-bottom: 122px;
+  justify-content: space-around;
+}
+
+.hire-me-info-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.hire-me-title {
+  color: #344054;
+  font-family: Numans;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 64px */
+  letter-spacing: -0.96px;
+  margin-bottom: 47px;
+  margin-top: 63px;
+  span {
+    color: #fd853a;
+  }
+}
+
+.hire-me-paragraf {
+  color: #98a2b3;
+  font-family: Numans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  margin-bottom: 47px;
+}
+.information-wrapper-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 47px;
+}
+
+.information-wrapper-item {
+  width: 50%;
+  gap: 10px;
+  h2 {
+    color: #1d2939;
+    font-family: Numans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.54px;
+  }
+
+  p {
+    color: #667085;
+    font-family: Numans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.3px;
+  }
+}
+
+.hire-me-btn {
+  padding: 33px 59px;
+  width: fit-content;
+  background: none;
+  border-radius: 32px;
+  border: 1px solid #151515;
+  color: #151515;
+  font-family: Numans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+
+.profile_foto {
+  width: 435px;
+  height: 652px;
+}
