@@ -180,3 +180,53 @@
   justify-content: center;
   align-items: center;
 }
+
+.splide__pagination {
+  top: 530px;
+}
+
+/* .splide__arrow--prev {
+  left: -2em;
+}
+.splide__arrow--next {
+  right: -2em;
+}
+.splide__arrow {
+  background: transparent;
+}
+.splide__arrow svg {
+  height: 3em;
+  width: 3em;
+} */
+
+.splide__arrows {
+  display: none; /* Убираем стандартные стрелки */
+}
+.custom-arrow {
+  position: absolute;
+  top: 55%;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.custom-arrow svg {
+  width: 70px;
+  height: 70px;
+  stroke: rgba(255, 255, 255, 0.85);
+}
+
+.custom-arrow-prev {
+  left: -10px;
+}
+
+.custom-arrow-next {
+  right: -10px;
+}

@@ -28,28 +28,26 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-// services Slider
+// services Splide
 
 import Splide from '@splidejs/splide';
 import '@splidejs/splide/css';
 
-// document.addEventListener('DOMContentLoaded', function () {
-//   new Splide('#services-slider', {
-//     type: 'loop', // Зацикленный слайдер
-//     perPage: 3, // Показывать 3 карточки
-//     gap: '20px', // Отступ между слайдами
-//     breakpoints: {
-//       768: { perPage: 2 },
-//     },
-//   }).mount();
-// });
-
 document.addEventListener('DOMContentLoaded', function () {
   var splide = new Splide('.splide', {
     perPage: 3, // Показывать 3 элемента на странице
-    focus: 0, // Сфокусироваться на первом элементе
-    omitEnd: true, // Пропускать конец слайдера
+    focus: 0,
+    omitEnd: true,
   });
 
-  splide.mount(); // Инициализация слайдера
+  splide.mount();
+
+  // Подключаем кастомные стрелки
+  document.querySelector('.custom-arrow-prev').addEventListener('click', () => {
+    splide.go('<'); // Переключение назад
+  });
+
+  document.querySelector('.custom-arrow-next').addEventListener('click', () => {
+    splide.go('>'); // Переключение вперед
+  });
 });
