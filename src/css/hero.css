@@ -1,0 +1,175 @@
+/* hero */
+.hello-wrapper {
+  position: relative;
+}
+.hello-vector {
+  position: absolute;
+  left: 56%;
+  top: -50%;
+}
+
+.hero-paragraf {
+  color: #171717;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  border-radius: 38.235px;
+  border: 1.275px solid #171717;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 25px;
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  margin: auto;
+}
+.fs-h1-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 140px;
+}
+.fs-wrapper {
+  position: relative;
+}
+.fs-vector {
+  position: absolute;
+  left: 8%;
+  top: 83%;
+}
+.hero-h1 {
+  color: #171717;
+  text-align: center;
+  margin-top: 10px;
+  span {
+    color: #fd853a;
+  }
+}
+
+.hero-inform-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.paragraf-wrapper {
+  margin-top: 70px;
+}
+
+.hero-buttons-wrapper {
+  display: flex;
+  width: 400px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(7.5px);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 3;
+  top: 180%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero-btn {
+  color: var(--white, #fff);
+  font-family: Numans;
+  font-size: 25.692px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: -0.385px;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  transition: all 0.3s ease-in-out;
+}
+/* Скрываем иконку SVG по умолчанию */
+.hero-btn .hero-icon {
+  display: none;
+}
+
+/* Стиль для активной кнопки */
+.hero-btn.active {
+  border-radius: 60px;
+  border: 0.5px solid #d0d5dd;
+  background: #fd853a;
+  font-weight: 700;
+}
+
+/* Показываем SVG внутри активной кнопки */
+.hero-btn.active .hero-icon {
+  display: flex;
+}
+.paragraf {
+  color: #344054;
+  font-family: Numans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+
+.experience {
+  color: #171717;
+  text-align: center;
+  font-family: Numans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 20px */
+  letter-spacing: -0.3px;
+  span {
+    color: #171717;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 47px */
+    letter-spacing: -0.705px;
+  }
+}
+
+.profile-photo {
+  position: absolute;
+  left: 16%;
+  top: -80%;
+}
+
+.bg-image {
+  top: 150px;
+  z-index: 1;
+  width: 811.779px;
+  height: 405.889px;
+  position: absolute;
+}
+
+.icon-quote-up {
+  fill: #344054;
+  width: 36px;
+  height: 36px;
+  margin-bottom: 24px;
+}
+.icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.icon-star {
+  fill: #fd853a;
+  width: 32px;
+  height: 32px;
+}
+
+.experience-wrapper {
+  margin-top: 70px;
+}
